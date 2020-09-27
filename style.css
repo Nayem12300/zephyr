@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;900&display=swap');
+
+/*
+========================
+Header area start
+========================
+*/
+
+body {	    
+    font-size: 16px;
+    font-weight: 400;    
+	background: #fff;
+	color: #333333;	
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-webkit-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-moz-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+.scrolltotop {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px 20px 0 0;
+    background: rgba(0,0,0,.5);   
+    text-align: center;
+    padding-top: 8px;
+    font-size: 22px;
+    color: #ffffff;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    display: none;
+    transition: 0.2s all ease;
+    -webkit-transition: 0.2s all ease;
+    -moz-transition: 0.2s all ease;
+}
+
+.scrolltotop:hover {   
+    background: #000;
+    color: #fff;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.5);   
+}
+
+/*-------------------header-area start--------------*/
+
+.header-area {
+    background: transparent;
+}
+
+.fixed-top {
+    background: #768D94;
+}
+
+/*.navbar {
+    position: fixed;
+    top: 0;
+}
+*/
+.navbar-light .navbar-nav .active > .nav-link {
+    background: #66C92D;
+    color: #fff;
+    display: inline-block;
+}
+
+.navbar-light .navbar-nav .active > .nav-link:hover
+{
+    color: #fff;
+    opacity: 0.7;
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(242, 238, 238);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    
+    color: #78C93E;
+}
+
+
+.social-top ul li {
+    display: inline-block;
+}
+
+.social-top ul li a {
+    color: #fff;
+    padding: 8px 10px;
+    width: 38px;
+    height: 38px;
+    font-size: 18px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 5px;
+    transition: 0.2s all ease;
+}
+
+.social-top ul li a:hover {
+    background: #78C93E;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.h-text {
+    text-align: center;
+    color: #fff;
+    padding: 120px 0;
+}
+
+.h-text h1 {
+    font-weight: 600;
+    font-size: 92px;
+    margin: 0;
+    padding: 0;
+}
+
+.h-text h3 {
+    font-weight: 600;
+    font-size: 85px;
+    margin: 0;
+    padding: 0;
+}
+
+.h-text p {
+    font-size: 22px;
+     padding: 0px 200px;
+}
+
+.hero-area {
+    background-image: url(img/zephyr-bg.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0px;
+}
+
+/*--------------------header-area end--------------------*/
+
+/*--------------company-area start--------------*/
+
+.company {
+    background: #d9d6d600;
+    padding-bottom: 30px;
+}
+
+.company-wrapper img {
+    display: block;
+    margin: 0 auto;
+}
+
+.company-text {
+    padding: 120px 200px;
+    text-align: center;
+    color: #666;
+}
+
+.company-text h2 {
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.company-wrapper {
+    text-align: center;
+    padding-top: 0px;
+    padding: 15px;
+}
+
+.company-wrapper:hover {
+    box-shadow: 1px 2px 3px 2px #ddd;
+}
+
+
+.company-wrapper p {
+    color: #666; 
+    padding-top: 30px;
+}
+
+
+.company-wrapper p:hover {
+    color: #51C33E; 
+    padding-top: 30px;
+}
+
+/*--------------company-area end--------------*/
+
+
+/*--------------Service-area start--------------*/
+.Service-wrapper img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.Service-text {
+    padding: 120px 100px;
+    text-align: center;
+    color: #666;
+}
+
+.Service-text h3 {
+    font-weight: 300;
+     font-size: 20px;
+}
+
+.Service {
+    padding: 30px 0px;
+}
+
+.Service-wrapper {
+    text-align: center;
+    padding-top: 0px;
+    padding: 15px;
+}
+
+.Service-wrapper h3 {
+    color: #666; 
+    padding-top: 10px;   
+}
+
+.Service-wrapper a {
+    color: #000; 
+    padding-top: 5px;  
+    font-size: 16px;
+    font-weight: 300; 
+}
+
+.Service-wrapper a:hover {
+    color: #51C33E; 
+    padding-top: 30px;
+}
+
+.Service-wrapper:hover {
+    box-shadow: 0px 1px 5px 1px #c4bbbb;
+}
+
+/*--------------company-area end--------------*/
+
+/*--------------company-area end--------------*/
+
+.plasma {
+    padding-top: 60px;
+    background: #ddd;
+}
+.plasma-wrapper img {
+    width: 100%;
+    max-height: 400px;
+    margin-top: 160px;
+}
+
+.plasma-wrapper-right h2 {
+    padding: 30px 0px;
+}
+
+.plasma-footer {
+    padding-top: 40px;
+}
+
+.plasma-footer h3 {
+    padding: 15px 0px;
+}
+
+.pwrf {
+    padding-right: 30px;
+}
+
+/*--------------company-area end--------------*/
+
+.e-l {
+    display: inline-block;
+
+}
+
+.energy {
+    padding: 60px 0px;
+}
+
+.e-top {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.e-top span {
+    font-size: 20px;
+}
+
+.e-top span a {
+    color: #90C940;
+}
+
+.energy-text ul li {
+    display: inline-block;
+    line-height: 40px;
+    margin: 6px 0px;
+}
+
+.energy-text ul li a {
+    color: #666;
+    padding: 10px 0px;
+}
+
+.energy-text ul {
+    padding: 0px 5px;
+}
+
+.energy-text ul:hover {
+    box-shadow: 1px 2px 3px 2px #ddd;
+    padding: 0px 5px;
+}
+
+.energy-text {
+    margin-left: 90px;
+}
+
+.energy-img {
+    margin-right: 30px;
+}
+
+.energy-wrapper-right h4 {
+    padding: 10px 0px;
+}
+
+.energy-wrapper-right p {
+    line-height: 30px;
+}
+
+/*------------------------*/
+
+.bg-f {
+    background-image: url(img/agency-fun-bg1.png);
+    padding: 60px 0px;
+    color: #fff;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.bg-f h3 {
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+.bg-f i {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.bg-f p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.about-us {
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.about-us span {
+    font-size: 20px;
+}
+
+.about-us a {
+    color: #90C940;
+}
+
+.about-us-text ul li {
+    display: inline-block;
+    float: left;
+    padding-top: 30px;
+}
+
+.about-us-text {
+    padding: 30px 0px;
+}
+
+.about-us-text p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.about-us-text img {
+    width: 100px;
+}
+
+/*--------footer----------*/
+
+.footer {
+    background: #748D94;
+    padding: 60px 0px;
+    color: #fff;
+}
+
+.footer-text img {
+    width: 150px;
+}
+
+.ftf {
+    text-align: center;
+    font-size: 20px;
+}
+
+.ftf a {
+    color: #90C940;
+}
+
+.social-bottom ul li {
+    display: inline-block;
+}
+
+.social-bottom ul li a {
+    color: #fff;
+    padding: 8px 10px;
+    width: 38px;
+    height: 38px;
+    font-size: 18px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 5px;
+    transition: 0.2s all ease;
+    border: 1px solid #fff;
+}
+
+.social-bottom ul li a:hover {
+    background: #78C93E;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.footer-text {
+    padding-top: 60px;
+}
+
+.footer-text a {
+    display: block;
+    color: #fff;
+    transform: 0.2s all ease;
+    font-size: 20px;
+}
+
+.footer-text a:hover {
+    color: #90C940;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input {
+    padding: 10px 15px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    /* position: absolute;
+    right: 0;
+    width: 45px;
+    height: 42px;
+    background: transparent;
+    z-index: 1;
+    top: 0;*/
+}
+/*form input [type="submit"] {
+    position: absolute;
+    top: 33%;
+    right: 12px;
+    font-size: 16px;
+    color: #65ca2d;
+    font-weight: 400;
+    z-index: 0;
+}
+*/
+
+.fc {
+    background: #6C8187;
+    padding: 25px 0px;
+    color: #fff;
+}
+
+.fl p {
+    display: inline-block;
+    float: left;
+}
+
+.fl ul li {
+    display: inline-block;
+    float: left;
+}
+
+.fl ul li a {
+    color: #fff;
+    margin-right: 1px solid #fff;
+    padding: 0px 8px;
+}
+
+.fr {
+    float: right;
+}
+
+.fr a {
+    color: #fff;
+}

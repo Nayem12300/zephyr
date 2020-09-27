@@ -1,0 +1,566 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+.navbar-brand img {
+    width: 120px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+}
+
+.social-top ul li a {
+    color: #fff;
+    padding: 4px 6px;
+    font-size: 18px;
+}
+
+.social-top ul li a:hover {
+    border: 1px solid #ddd;
+    padding: 3px 5px;
+}
+
+
+.h-text h1 {
+    font-weight: 600;
+    font-size: 110px;    
+}
+
+.h-text h3 {
+    font-weight: 500;
+    font-size: 80px;    
+}
+
+.h-text p {
+    font-size: 22px;
+    padding: 0px 200px;
+}
+
+ .hero-area {
+    padding: 40px 0px;
+}
+
+.company-text {
+    padding: 80px 100px;
+}
+
+.Service-text {
+    padding: 80px 60px;
+}
+
+.Service {
+	padding: 30px 0px;
+}
+
+.Service-wrapper a {
+	font-weight: 500;
+	font-size: 20px;
+	 font-family: 'Lato', sans-serif;
+}
+
+
+.Service-wrapper p {
+	font-size: 16px;
+}
+
+.energy-text ul li {
+    display: inline-block;
+    line-height: 35px;
+}
+
+.energy-text {
+    margin-left: 60px;
+}
+
+.about-us {
+    padding: 80px 0px;
+}
+
+.about-us-text {
+    padding: 30px 0px;
+}
+
+
+.about-us-text ul {
+    padding: 30px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+.h-text h1 {
+    font-weight: 400;
+    font-size: 70px;
+}
+
+.h-text h3 {
+    font-weight: 400;
+    font-size: 50px;
+ }
+
+.h-text p {
+    font-size: 20px;   
+}
+
+.company-text h2 {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.company-text {
+    padding: 40px 80px;
+    text-align: center;
+    color: #666;
+}
+
+.company-wrapper img {
+    margin-top: 30px;
+}
+
+
+.Service-text {
+    padding: 15px 15px;
+}
+
+.Service-wrapper {
+    margin-top: 20px;
+}
+
+
+.plasma-wrapper img {
+    margin-top: 235px;
+}
+
+.plasma-wrapper-right img {
+	width: 80px;
+}
+
+.plasma-wrapper-right h2 {
+    padding: 10px 0px;
+    font-size: 25px;
+}
+
+.plasma-footer img {
+	width: 60px;
+}
+
+.plasma-footer h2 {
+	width: 100%;
+	padding-bottom: 15px;
+}
+
+.plasma-footer p {
+	width: 100%;
+	padding-bottom: 15px;
+	font-size: 15px;
+}
+
+
+.energy-wrapper-right {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.bgft {
+	margin-top: 75px;
+}
+
+.bg-f {
+    padding: 30px 0px;
+    margin-top: 60px;
+}
+
+.bg-f h3 {
+    margin-top: 10px;
+}
+
+.about-us-text {
+    padding: 70px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {	
+
+
+.h-text h1 {
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.h-text h3 {
+    font-weight: 400;
+    font-size: 30px;
+ }
+
+.h-text p {
+    font-size: 18px;
+    padding: 0px 20px;
+    margin-top: 15px;
+}
+
+.company-text h2 {
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.company-text {
+    padding: 20px 40px;
+    text-align: center;
+    color: #666;
+}
+
+.company-wrapper img {
+    margin-top: 20px;
+}
+
+
+.Service-text {
+    padding: 15px 15px;
+}
+
+.Service-wrapper {
+    margin-top: 20px;
+}
+
+.Service-wrapper a {
+	font-size: 18px;
+}
+
+.Service-wrapper p {
+	font-size: 14px;
+}
+
+
+.plasma-wrapper img {
+    margin-top: 0px;
+}
+
+.plasma-wrapper-right img {
+	width: 80px;
+}
+
+.plasma-wrapper-right h2 {
+    padding: 10px 0px;
+    font-size: 25px;
+}
+
+.plasma-footer img {
+	width: 55px;
+}
+
+.plasma-footer h2 {
+	width: 100%;
+	padding-bottom: 15px;
+}
+
+.plasma-footer p {
+	width: 100%;
+	padding-bottom: 15px;
+	font-size: 15px;
+}
+
+.plasma-footer {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.energy-text {
+    margin-left: 0px;
+    text-align: center;
+}
+
+.energy-wrapper-right {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.energy {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.bgft {
+	margin-top: 75px;
+}
+
+.bg-f {
+    padding: 30px 0px;
+    margin-top: 60px;
+}
+
+.bg-f h3 {
+    margin-top: 10px;
+}
+
+.about-us-text {
+    padding: 70px 0px;
+}
+
+
+.about-us-text ul li {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.footer-text {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+
+
+.h-text h1 {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.h-text h3 {
+    font-weight: 400;
+    font-size: 30px;
+ }
+
+.h-text p {
+    font-size: 15px;
+    padding: 0px 20px;
+    margin-top: 15px;
+}
+
+.company {
+	padding-top: 15px;
+}
+
+.company-text h2 {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.company-text p {
+    font-size: 14px;
+}
+
+.company-text {
+    padding: 20px 40px;
+    text-align: center;
+    color: #666;
+}
+
+.company-wrapper img {
+    margin-top: 20px;
+}
+
+
+.Service-text {
+    padding: 15px 15px;
+}
+
+.Service-wrapper {
+    margin-top: 20px;
+}
+
+.Service-text h2 {
+	font-size: 22px;
+}
+
+.Service-text p {
+	font-size: 14px;
+}
+
+.Service-wrapper a {
+	font-size: 18px;
+}
+
+.Service-wrapper p {
+	font-size: 14px;
+}
+
+
+.plasma-wrapper img {
+    margin-top: 0px;
+}
+
+.plasma-wrapper-right {
+	text-align: center;
+}
+
+
+.plasma-wrapper-right img {
+	width: 80px;
+	padding-top: 15px;
+}
+
+.plasma-wrapper-right h2 {
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.plasma-wrapper-right p {
+	font-size: 14px;
+}
+
+
+.plasma-footer img {
+	width: 55px;
+}
+
+.plasma-footer h2 {
+	width: 100%;
+	padding-bottom: 15px;
+}
+
+.plasma-footer p {
+	width: 100%;
+	padding-bottom: 15px;
+	font-size: 15px;
+}
+
+.plasma-footer {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.energy-text {
+    margin-left: 0px;
+    text-align: center;
+}
+
+.energy-wrapper-right {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.energy {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.bgft {
+	margin-top: 75px;
+}
+
+.bg-f {
+    padding: 30px 0px;
+    margin-top: 60px;
+}
+
+.bg-f h3 {
+    margin-top: 10px;
+}
+
+.about-us-text {
+    padding: 70px 0px;
+}
+
+
+.about-us-text ul li {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.footer-text {
+	text-align: center;
+}
+
+
+.fr {
+    float: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
